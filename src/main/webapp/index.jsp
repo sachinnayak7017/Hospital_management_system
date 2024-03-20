@@ -1,20 +1,20 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page import="com.db.DBConnect"%>
 <%@page import="java.sql.Connection"%>
 
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>index Page</title>
-<%@include file="component/allcss.jsp"%>
-<style type="text/css">
-.paint-card {
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-}
-</style>
+ <%@include file="component/allcss.jsp"%>
+    <style type="text/css">
+        .paint-card {
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        }
+    </style>
 </head>
 <body>
 <%@include file="../component/navbar.jsp"%>
@@ -124,7 +124,7 @@ out.print(conn);%>
 <div class ="cord paint-card">
 <div class ="card-body text-center">
 <img src ="image/img36.jpg" width="190px" height="250px">
-<p class = "fw-bold  fs-5">Dr.Garima saini</p>
+<p class = "fw-bold  fs-5">Dr.kagal</p>
 <p class ="fs-7">(Chief Doctor)</p>
 </div>
 </div>
@@ -144,13 +144,14 @@ out.print(conn);%>
 <div class ="cord paint-card">
 <div class ="card-body text-center">
 <img src ="image/img38.jpg" width="190px" height="250px">
-<p class = "fw-bold  fs-5">Dr.Preety saini</p>
+<p class = "fw-bold  fs-5">Dr.Riya</p>
 <p class ="fs-7">(Chief Doctor)</p>
 </div>
 </div>
 </div>
 </div>
 </div>
+
  <%@include file="component/footer.jsp"%>
 </body>
 </html>
